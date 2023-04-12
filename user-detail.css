@@ -1,0 +1,51 @@
+/* Reset default margin and padding */
+body,
+h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set font styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Style user details container */
+#user-detail {
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style user details paragraphs */
+.name,
+.username,
+.phone,
+.website,
+.address {
+  margin-bottom: 10px;
+}
+
+/* Style address paragraph */
+.address {
+  font-style: italic;
+}
+
+/* Style header */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Style input */
+input[type="text"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}

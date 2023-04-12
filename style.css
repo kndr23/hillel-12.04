@@ -1,0 +1,74 @@
+/* Reset default styles */
+body,
+h1,
+h2,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set font styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Set header styles */
+header {
+  background-color: #1877F2;
+  /* Facebook blue color */
+  color: #fff;
+  padding: 20px;
+}
+
+/* Set navigation styles */
+nav {
+  padding: 10px;
+  background-color: #F0F2F5;
+  /* Facebook light gray color */
+}
+
+/* Set search input styles */
+#search-input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #fff;
+  color: #000;
+  border-radius: 5px;
+}
+
+/* Set section styles */
+section {
+  padding: 20px;
+}
+
+/* Set user list styles */
+#user-list {
+  list-style: none;
+}
+
+#user-list li {
+  margin-bottom: 10px;
+}
+
+#user-list li p {
+  background-color: #F0F2F5;
+  /* Facebook light gray color */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Set responsive styles */
+@media only screen and (max-width: 768px) {
+
+  /* Adjust header padding for smaller screens */
+  header {
+    padding: 10px;
+  }
+
+  /* Adjust section padding for smaller screens */
+  section {
+    padding: 10px;
+  }
+}
